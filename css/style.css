@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+#home {
+    background-image: url("../img/home.jpg");
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.head_text {
+    text-align: center;
+    display: inline-block;
+    margin-top: 150px;
+
+
+}
+
+#home h1 {
+    font-size: 60px;
+    text-shadow: 10px 10px 25px rgb(81, 67, 21),
+        -10px 10px 25px rgb(81, 67, 21),
+        -10px -10px 25px rgb(81, 67, 21),
+        10px -10px 25px rgb(81, 67, 21);
+
+}
+
+.type {
+    color: red;
+    font-size: 30px;
+}
+
+#home h2 {
+    display: inline;
+}
+
+.socal_media {
+    margin-top: 40px;
+
+}
+
+.socal_media a {
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    ;
+    background-color: black;
+    border-radius: 100% 0% 0% 100% / 0% 100% 0% 100%;
+
+}
+
+.socal_media a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 0% 100% 100% 0% / 0% 100% 0% 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    ;
+
+}
