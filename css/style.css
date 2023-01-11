@@ -145,3 +145,30 @@ body {
     /* height: 50px; */
     width: 100%;
 }
+
+/* footer style start  */
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+
+.SERVICES_footer a {
+    text-decoration: none;
+    display: block;
+    /* text-align: center; */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+
+
+}
+
+.SERVICES_footer a:hover {
+    background-color: white;
+    color: black;
+}
+
+.SERVICES_footer .shot a:hover {
+    color: black;
+}
