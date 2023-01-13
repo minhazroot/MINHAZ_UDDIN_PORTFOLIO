@@ -70,6 +70,7 @@ body {
 
 .home_baton {
     margin-top: 40px;
+    height: 50px;
 
 }
 
@@ -171,4 +172,16 @@ footer {
 
 .SERVICES_footer .shot a:hover {
     color: black;
+}
+
+.icon_style {
+    height: 45px;
+    width: 45px;
+
+}
+
+.con_icon {
+    height: 35px;
+    width: 35px;
+
 }
